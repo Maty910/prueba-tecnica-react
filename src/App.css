@@ -1,0 +1,19 @@
+body {
+    background-color: #910ee78e ;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: system-ui;
+}
+
+img {
+    max-width: 500px;
+    border-radius: 10px;
+    border: #000000 solid 1.5px;
+}
