@@ -9,11 +9,22 @@ main {
     align-items: center;
     max-width: 800px;
     margin: 0 auto;
-    font-family: system-ui;
+}
+
+section {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 20px;
+    align-items: center;
+    place-content: center;
 }
 
 img {
-    max-width: 500px;
+    width: 250px;
+    min-width: 250px;
+    max-width: 250px;
     border-radius: 10px;
     border: #000000 solid 1.5px;
+    font-family: system-ui;
 }
